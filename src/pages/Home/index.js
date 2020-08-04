@@ -1,13 +1,30 @@
-import React from 'react'
-
-export default () => (
-  <div className="has-text-centered">
-    <section class="hero is-info">
-      <div className="container">
-        <h1 className="title">Home Page</h1>
-        <h2 className="page-title">ทำ Routing ให้กับ React ด้วย React Router v4</h2>
-        <p className="button button-large is-primary"><a href="https://devahoy.com/posts/basic-web-with-react-router-v4/" target="_blank">อ่านบทความ</a></p>
+import React, { Component } from 'react'
+import TopBanner from './components/topBanner'
+import PackageBanner from './components/packageBanner'
+import About from '../../components/About'
+import ModalBanner from './components/modal'
+export default class Home extends Component {
+  componentDidUpdate() {
+    window.scrollTo(0, 0)
+  }
+  render() {
+    return (
+      <div>
+        <section className="wrapper-top-banner">
+          <TopBanner/>
+          <div className="container">
+            <section className="home-promotion">
+              <div>
+                <div><PackageBanner/></div>
+              </div>
+            </section>
+            <div id="about">
+              <ModalBanner/>
+              <About/>
+            </div>
+          </div>
+        </section>
       </div>
-    </section>
-  </div>
-)
+    )
+  }
+}

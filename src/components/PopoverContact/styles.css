@@ -1,0 +1,63 @@
+.popover-button{
+  position: fixed;
+  background-color:transparent;
+  bottom: 50px;
+  right: 30px;
+  cursor: pointer;
+  transition: opacity 0.2s linear 0s, visibility;
+  opacity: 1;
+  visibility: visible;
+  z-index: 999;
+  width: 50px;
+  padding: 0;
+  line-height: 49px;
+  border-radius: 50%;
+  text-align: center;
+  overflow: hidden;
+  z-index: 999!important;
+  border: none;
+  font-family: Kanit;
+
+}
+
+.popover-button > div {
+}
+.popover-button svg {
+  color: #fff;
+  margin-top: -10px;
+}
+
+.contact-popover img{
+  width: 50px;
+}
+
+.icon-phone {
+  margin-right: 10px;
+}
+
+.tel-more {
+  font-size: 30px;
+  text-align: center;
+  font-family: Kanit;
+}
+
+.modal-title {
+  padding: 10px;
+}
+
+.tel-more a {
+  text-decoration: none;
+  color: black;
+}
+
+.qr-line img{ 
+ width: 250px;
+}
+.line-body{
+  text-align: center;
+  margin: 20px auto;
+  color: #00b800!important;
+}
+.line-title{
+  
+}

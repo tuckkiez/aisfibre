@@ -1,31 +1,88 @@
 import React, { Component } from 'react'
 import { NavLink } from 'react-router-dom'
 import Routing from './routes'
-
+import Footer from './components/Footer'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import Sidebar from './components/Sidebar'
+import PopoverContact from './components/PopoverContact'
 class App extends Component {
   render() {
     return (
       <div className="my-app">
-        <nav className="navbar is-light" role="navigation" aria-label="main navigation">
+        <Sidebar/>
+        <nav className="navbar top-menu fixed-top" role="navigation" aria-label="main navigation">
           <div className="container">
             <div className="navbar-brand">
-              <a className="navbar-item" href="https://devahoy.com">
-                <img src={process.env.PUBLIC_URL + '/images/devahoy-text-logo.png'} alt="DEVAHOY LOGO" width="112" height="28" />
-              </a>
+              <a href="/"><img src="https://image.makewebeasy.net/makeweb/0/Sa2wvRXov/DefaultData/aisfibre.png" alt="AISFIBRE LOGO" /> </a>
             </div>
-            <div className="navbar-menu">
+            <div className="navbar-menu ">
               <div className="navbar-end">
-                <NavLink exact to="/" activeClassName="is-active" className="navbar-item">Home</NavLink>
-                <NavLink to="/posts" activeClassName="is-active" className="navbar-item">Posts</NavLink>
-                <NavLink to="/projects" activeClassName="is-active" className="navbar-item">Projects</NavLink>
-                <NavLink to="/about" activeClassName="is-active" className="navbar-item">About</NavLink>
-                <a className="navbar-item" href="https://github.com/phonbopit" target="_blank">Star on <i className="fab fa-github"></i></a>
+                <NavLink exact to="/" activeClassName="is-active" className="navbar-item">หน้าแรก</NavLink>
+                <NavLink to="/package" activeClassName="is-active" className="navbar-item">แพ็กเกจ</NavLink>
+                <a href="/#about" activeClassName="is-active" className="navbar-item">เอไอเอสไฟเบอร์</a>
+                <NavLink to="/location/#top" activeClassName="is-active" className="navbar-item">ตรวจสอบพื้นที่ให้บริการ</NavLink>
+                <NavLink to="#" activeClassName="is-active" className="navbar-item">ติดต่อเรา</NavLink>
+
+                {/* <div>
+                  <div className="nav-tel">
+                    <div className="tel-1">
+                      <a href="tel:0924456910" target="blank">
+                        <Image cloudName="aisfibre59-com" publicId="icon/call1.png" >
+                          <Transformation width="100" crop="scale" />
+                        </Image>
+                      </a>
+                    </div>
+                    <div>
+                      <a href="tel:0924457406" target="blank">
+                        <Image cloudName="aisfibre59-com" publicId="icon/call2.png" >
+                          <Transformation width="100" crop="scale" />
+                        </Image>
+                      </a>
+                    </div>
+                  </div>
+                  <div className="nav-line">
+                    <a href="https://lin.ee/3qY2SjL" target="blank">
+                      <Image cloudName="aisfibre59-com" publicId="icon/line_1.png" >
+                        <Transformation width="100" crop="scale" />
+                      </Image>
+                    </a>
+                  </div>
+                </div>
+                */}
               </div>
             </div>
           </div>
         </nav>
 
+        {/* <div className="contact-mobile">
+          <div className="nav-tel-mobile">
+            <div className="tel-1">
+              <a href="tel:0924456910" target="blank">
+                <Image cloudName="aisfibre59-com" publicId="icon/call1.png" >
+                  <Transformation width="100" crop="scale" />
+                </Image>
+              </a>
+            </div>
+            <div>
+              <a href="tel:0924457406" target="blank">
+                <Image cloudName="aisfibre59-com" publicId="icon/call2.png" >
+                  <Transformation width="100" crop="scale" />
+                </Image>
+              </a>
+            </div>
+          </div>
+          <div className="nav-line">
+            <a href="https://lin.ee/3qY2SjL" target="blank">
+              <Image cloudName="aisfibre59-com" publicId="icon/line.png" >
+                <Transformation width="100" crop="scale" />
+              </Image>
+            </a>
+          </div>
+        </div>
+    */}
         <Routing />
+        <PopoverContact/>
+        <Footer/>
       </div>
     )
   }
