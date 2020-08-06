@@ -257,11 +257,19 @@ a.navbar-item:hover {
 	background-color: #1b1e21;
 }
 
-.wrapper-top-banner, .package-top-banner, .check-location, .package-detail{
+.wrapper-top-banner, .package-top-banner, .check-location, .package-detail, .page-contact{
 	margin-bottom: 30px;
 	margin-top: 76px;
 }
 
+.page-contact img {
+	width: 400px;
+	margin-bottom: 20px;
+}
+
+.contact-wrapper, .location-wrappper{
+	padding-top: 40px; 
+}
 .tel-title{
 	font-size: 16px;
 }
@@ -295,10 +303,13 @@ a.navbar-item:hover {
 	padding: 0;
 }
 
-.package{
-	
+.promotions-wrapper {
+	margin-top: 40px; 
 }
 
+.promotions-wrapper img{
+	margin-bottom:20px; 
+}
 .about{
 	margin-top: 40px;
 }
@@ -601,7 +612,7 @@ a:hover {
 .backto-top div{
 		position: fixed;
 		background-color: #000;
-    bottom: 140px;
+    bottom: 50px;
     right: 30px;
     cursor: pointer;
     transition: opacity 0.2s linear 0s, visibility;
@@ -733,10 +744,16 @@ a:hover {
 	padding: 0!important;
 }
 
+.modal-open {
+	padding-right: 0!important;
+}
+
 .modal-header {
 	padding: 0!important;
   position: relative;
 }
+
+
 .modal-header .close {
 	position: absolute;
     top: 3px;
@@ -765,6 +782,9 @@ a:hover {
 	display: flex;
 	margin-top: -4px;
 	margin-bottom: 5px; 
+}
+.nav-tel img, .nav-line img , .nav-tel-mobile img{
+	width: 100px;
 }
 
 .tel-1{
@@ -832,7 +852,7 @@ a:hover {
 	font-size: 24px;
 }
 
-.wrapper-top-banner, .check-location{
+.wrapper-top-banner, .check-location, .page-contact{
 	margin-bottom: 20px;
 	margin-top: 76px;
 }
@@ -897,17 +917,20 @@ a:hover {
 	bottom: 0;
 	padding-top: 33px;
 }
+.section_head{
+	margin: 15px auto;
+}
 .section_head .txt_sm{
-	line-height: 40px;
-		font-size: 30px;
-		padding-left: 20px;
+	line-height: 22px;
+	font-size: 22px;
+	padding-left: 20px;
 }
 .section_head .txt_big{
 	position: relative;
 	margin-left: 10px;
 	margin-top: 5px;
-	line-height: 55px;
-	font-size: 45px;
+	line-height: 22px;
+	font-size: 22px;
 }
 
 .slider-package{ 

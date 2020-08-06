@@ -3,6 +3,7 @@ import TopBanner from './components/topBanner'
 import PackageBanner from './components/packageBanner'
 import About from '../../components/About'
 import ModalBanner from './components/modal'
+import Promotions from './components/promotions'
 export default class Home extends Component {
   componentDidUpdate() {
     window.scrollTo(0, 0)
@@ -16,6 +17,7 @@ export default class Home extends Component {
             <section className="home-promotion">
               <div>
                 <div><PackageBanner/></div>
+                <div><Promotions/></div>
               </div>
             </section>
             <div id="about">

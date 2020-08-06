@@ -9,6 +9,7 @@ import Broadband from '../pages/Broadband'
 import Esport from '../pages/Esport'
 import Serenade from '../pages/Serenade'
 import Location from '../pages/Location'
+import Contact from '../pages/Contact'
 
 export default () => (
   <Switch>
@@ -20,5 +21,6 @@ export default () => (
     <Route exact path="/e-sport" component={Esport} />
     <Route exact path="/serenade" component={Serenade} />
     <Route exact path="/location" component={Location} />
+    <Route exact path="/contact" component={Contact} />
   </Switch>
 )

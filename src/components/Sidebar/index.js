@@ -15,7 +15,7 @@ class Sidebar extends Component {
             <a href="/package"><li>แพ็กเกจ</li></a>
             <a href="/#about"><li>เอไอเอสไฟเบอร์</li></a>
             <a href="/location"><li>ตรวจสอบพื้นที่ให้บริการ</li></a>
-            <a href="#"><li>ติดต่อเรา</li></a>
+            <a href="/contact"><li>ติดต่อเรา</li></a>
 
           </ul>
         </div>

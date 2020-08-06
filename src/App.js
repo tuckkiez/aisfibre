@@ -4,7 +4,8 @@ import Routing from './routes'
 import Footer from './components/Footer'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Sidebar from './components/Sidebar'
-import PopoverContact from './components/PopoverContact'
+import { Image } from 'cloudinary-react'
+
 class App extends Component {
   render() {
     return (
@@ -21,67 +22,58 @@ class App extends Component {
                 <NavLink to="/package" activeClassName="is-active" className="navbar-item">แพ็กเกจ</NavLink>
                 <a href="/#about" activeClassName="is-active" className="navbar-item">เอไอเอสไฟเบอร์</a>
                 <NavLink to="/location/#top" activeClassName="is-active" className="navbar-item">ตรวจสอบพื้นที่ให้บริการ</NavLink>
-                <NavLink to="#" activeClassName="is-active" className="navbar-item">ติดต่อเรา</NavLink>
+                <NavLink to="/contact" activeClassName="is-active" className="navbar-item">ติดต่อเรา</NavLink>
 
-                {/* <div>
+                <div>
                   <div className="nav-tel">
                     <div className="tel-1">
                       <a href="tel:0924456910" target="blank">
-                        <Image cloudName="aisfibre59-com" publicId="icon/call1.png" >
-                          <Transformation width="100" crop="scale" />
+                        <Image cloudName="aisfibre59-com" publicId="icon/contact-call1.png" >
                         </Image>
                       </a>
                     </div>
                     <div>
                       <a href="tel:0924457406" target="blank">
-                        <Image cloudName="aisfibre59-com" publicId="icon/call2.png" >
-                          <Transformation width="100" crop="scale" />
+                        <Image cloudName="aisfibre59-com" publicId="icon/contact-call2.png" >
                         </Image>
                       </a>
                     </div>
                   </div>
                   <div className="nav-line">
                     <a href="https://lin.ee/3qY2SjL" target="blank">
-                      <Image cloudName="aisfibre59-com" publicId="icon/line_1.png" >
-                        <Transformation width="100" crop="scale" />
+                      <Image cloudName="aisfibre59-com" publicId="icon/contact-line.png" >
                       </Image>
                     </a>
                   </div>
                 </div>
-                */}
               </div>
             </div>
           </div>
         </nav>
 
-        {/* <div className="contact-mobile">
+        <div className="contact-mobile">
           <div className="nav-tel-mobile">
             <div className="tel-1">
               <a href="tel:0924456910" target="blank">
-                <Image cloudName="aisfibre59-com" publicId="icon/call1.png" >
-                  <Transformation width="100" crop="scale" />
+                <Image cloudName="aisfibre59-com" publicId="icon/contact-call1.png" >
                 </Image>
               </a>
             </div>
             <div>
               <a href="tel:0924457406" target="blank">
-                <Image cloudName="aisfibre59-com" publicId="icon/call2.png" >
-                  <Transformation width="100" crop="scale" />
+                <Image cloudName="aisfibre59-com" publicId="icon/contact-call2.png" >
                 </Image>
               </a>
             </div>
           </div>
           <div className="nav-line">
             <a href="https://lin.ee/3qY2SjL" target="blank">
-              <Image cloudName="aisfibre59-com" publicId="icon/line.png" >
-                <Transformation width="100" crop="scale" />
+              <Image cloudName="aisfibre59-com" publicId="icon/contact-line.png" >
               </Image>
             </a>
           </div>
         </div>
-    */}
         <Routing />
-        <PopoverContact/>
         <Footer/>
       </div>
     )
