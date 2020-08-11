@@ -14,7 +14,7 @@ function ModalBanner() {
       >
         <Modal.Header closeButton/>
         <Modal.Body>
-          <a href="https://lin.ee/3qY2SjL" target="blank"><Image cloudName="aisfibre59-com" publicId="banner/Promotion/popup-promotion.jpg" ></Image></a>
+          <a href="https://lin.ee/3qY2SjL" target="blank"><Image alt="ais-pormotion" cloudName="aisfibre59-com" publicId="banner/Promotion/popup-promotion.jpg" ></Image></a>
         </Modal.Body>
       </Modal>
     </div>

@@ -7,8 +7,8 @@ export default class Workformhome extends Component {
       <div className="package-detail">
         <section className="banner">
           <picture>
-            <source media="(min-width: 640px)" srcset="https://res.cloudinary.com/aisfibre59-com/image/upload/v1596362191/banner/workformhome_1600x500_ilbag4.jpg"/>
-            <img src="https://res.cloudinary.com/aisfibre59-com/image/upload/v1596365403/banner/workformhome_1040x1137_ycmbqk.jpg" alt="ais responsive images ais-workfromhome"/>
+            <source media="(min-width: 640px)" srcset="https://res.cloudinary.com/aisfibre59-com/image/upload/v1596362191/banner/package/workformhome_1600x500.jpg"/>
+            <Image cloudName="aisfibre59-com" publicId="banner/package/workformhome_1040x1137.jpg" ></Image>
           </picture>
         </section>
         <div className="container power4-package">

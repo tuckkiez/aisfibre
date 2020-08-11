@@ -16,8 +16,8 @@ export default class Home extends Component {
           <div className="container">
             <section className="home-promotion">
               <div>
-                <div><PackageBanner/></div>
                 <div><Promotions/></div>
+                <div><PackageBanner/></div>
               </div>
             </section>
             <div id="about">
