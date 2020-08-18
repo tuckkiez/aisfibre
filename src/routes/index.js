@@ -10,6 +10,7 @@ import Esport from '../pages/Esport'
 import Serenade from '../pages/Serenade'
 import Location from '../pages/Location'
 import Contact from '../pages/Contact'
+import Test from '../pages/Test'
 
 export default () => (
   <Switch>
@@ -22,5 +23,6 @@ export default () => (
     <Route exact path="/serenade" component={Serenade} />
     <Route exact path="/location" component={Location} />
     <Route exact path="/contact" component={Contact} />
+    <Route exact path="/test" component={Test} />
   </Switch>
 )
