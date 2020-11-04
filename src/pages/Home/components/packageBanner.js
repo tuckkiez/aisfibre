@@ -79,11 +79,6 @@ export default class PackageBanner extends Component {
             </NavLink>
           </div>
           <div className="nav-img">
-            <NavLink to="/workfromhome" activeClassName="is-active" className="navbar-item">
-              <Image cloudName="aisfibre59-com" publicId="banner/package/package2.jpg" ></Image>
-            </NavLink>
-          </div>
-          <div className="nav-img">
             <NavLink to="/broadband" activeClassName="is-active" className="navbar-item">
               <Image cloudName="aisfibre59-com" publicId="banner/package/package3.jpg" ></Image>
             </NavLink>
