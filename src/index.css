@@ -1041,4 +1041,7 @@ a:hover {
 	.nav-line{
 		margin-left: 7px; 
 	}
+	.vdo-banner {
+		width: 100%;
+	}
 }
