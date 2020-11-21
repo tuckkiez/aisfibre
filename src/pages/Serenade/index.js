@@ -3,6 +3,9 @@ import Slider from 'react-slick'
 import {Image} from 'cloudinary-react'
 
 export default class Serenade extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
   render() {
     const settings = {
       slidesToShow: 3,
