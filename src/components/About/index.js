@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import {Image} from 'cloudinary-react'
+import ReactPlayer from 'react-player'
 
 export default class About extends Component {
   render() {
@@ -31,7 +32,8 @@ export default class About extends Component {
           <p> เชื่อมต่อการใช้งานอินเทอร์เน็ตจาก AIS ได้ทุกที่ทุกเวลา</p>
           <p> สนุกกับความบันเทิงระดับพรีเมี่ยมครบในกล่องเดียวกับ AIS PLAYBOX ทั้งภาพยนตร์ ซีรีส์ รายการทีวี และ คาราโอเกะ พร้อมสัมผัสสุดยอดความคมชัด ให้คุณสนุกจนไม่อยากพลาดจากหน้าจอ</p>
           <p> ติดตั้งได้รวดเร็ว พร้อมบริการหลังการขายจากทีมงานคุณภาพ</p>
-          <h4>AIS Fibre</h4>
+          <div className="vdo-banner">
+            <ReactPlayer width='100%' height='100%' controls={true} playing={true} url='https://res.cloudinary.com/aisfibre59-com/video/upload/v1600664323/vdo/vdo_nxccmv.mp4' /></div>
           <div className="about-desktop d-none d-sm-block">
             <div class="row">
               <div class="col-lg-6 col-sm-6 col-12 about-wrapper-left">
