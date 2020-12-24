@@ -9,8 +9,9 @@ export default class Promotions extends Component {
         <div className="container promotions-wrapper" id="top">
           <div class="section_head">
             <a>
-              <div class="txt_sm txt_bef">โปรโมชั่นประจำเดือน</div>
-              <div class="txt_big txt_aft_big">Promotion</div>
+              <div class="txt_sm txt_bef">โปรโมชั่นติดเน็ตบ้าน เอไอเอส ไฟเบอร์
+              (AIS FIBRE) สำหรับเดือนนี้</div>
+              {/* <div class="txt_big txt_aft_big">Promotion</div> */}
             </a>
           </div>
           <div class="row">
