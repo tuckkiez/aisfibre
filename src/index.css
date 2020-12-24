@@ -336,10 +336,19 @@ a.navbar-item:hover {
 .about p{
 	color: #e3e1e1;
 }
+.about li{
+	color: #e3e1e1;
+	list-style: disc;
+}
+.about ul{
+	color: #e3e1e1;
+	list-style: disc;
+	margin-left: 40px;
+}
 .package .section_head {
 	margin: 30px 15px;
 }
-.about h1, h4, h5 {
+.about h1, h2, h3, h4, h5 {
 	color: #b2d233;
 	margin-bottom: 20px;
 }
@@ -815,6 +824,51 @@ a:hover {
 .serenade-speed img{
 	margin-bottom: 20px;
 }
+
+.img-qanda {
+	margin: 20px 0;
+}
+
+.table-date {
+	background: none;
+	margin: 10px 0;
+	
+}
+.table-date thead th{
+	font-size: 20px;
+	font-weight: bold;
+}
+.tg {
+	margin: auto;
+}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0pky, .tg{
+	border-color:inherit;
+	text-align:left;
+	vertical-align:top;
+	border: 3px solid #b2df30;
+	color: #fff;
+	text-align: center;
+}
+.payment {
+	margin: 20px 0;
+}
+.payment ul li {
+	list-style: none;
+}
+.payment ul {
+	margin-left: 10px;
+}
+.example {
+	font-size: 20px;
+}
+.eventBanner {
+	margin-top: 20px;
+}
+
 @media only screen and (max-width: 575px) {
 	.package_h1, .package_h1__txt2{
 		font-size: 22px;
@@ -1045,3 +1099,4 @@ a:hover {
 		width: 100%;
 	}
 }
+
