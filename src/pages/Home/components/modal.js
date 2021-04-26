@@ -16,7 +16,8 @@ function ModalBanner() {
         <Modal.Header closeButton/>
         <Modal.Body>
           <a href="https://lin.ee/3qY2SjL" target="blank">
-          <img src={`https://res.cloudinary.com/aisfibre59-com/image/upload/v1/banner/promotion/popup-promotion-1.jpg?v=${v}`}/></a>
+            <img alt="aisfibre popup" src="/images/popup/popup-promotion-1.jpg"/>
+          </a>
         </Modal.Body>
       </Modal>
     </div>

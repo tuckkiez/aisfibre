@@ -75,22 +75,22 @@ export default class PackageBanner extends Component {
         <Slider {...settings} className="slider-package">
           <div className="nav-img">
             <NavLink to="/power4" activeClassName="is-active" className="navbar-item">
-              <Image cloudName="aisfibre59-com" publicId="banner/package/package1.jpg" ></Image>
+              <img alt="aisfibre-package1" src="/images/package/package1.jpeg"/>
             </NavLink>
           </div>
           <div className="nav-img">
             <NavLink to="/broadband" activeClassName="is-active" className="navbar-item">
-              <Image cloudName="aisfibre59-com" publicId="banner/package/package3.jpg" ></Image>
+              <img alt="aisfibre-package3" src="/images/package/package3.jpeg"/>
             </NavLink>
           </div>
           <div className="nav-img">
             <NavLink to="/e-sport" activeClassName="is-active" className="navbar-item">
-              <Image cloudName="aisfibre59-com" publicId="banner/package/package4.jpg" ></Image>
+              <img alt="aisfibre-package4" src="/images/package/package4.jpeg"/>
             </NavLink>
           </div>
           <div className="nav-img">
             <NavLink to="/serenade" activeClassName="is-active" className="navbar-item">
-              <Image cloudName="aisfibre59-com" publicId="banner/package/package5.jpg" ></Image>
+              <img alt="aisfibre-package5" src="/images/package/package5.jpeg"/>
             </NavLink>
           </div>
         </Slider>

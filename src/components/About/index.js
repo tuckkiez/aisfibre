@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import {Image} from 'cloudinary-react'
 import ReactPlayer from 'react-player'
 export default class About extends Component {
   render() {
@@ -26,12 +25,12 @@ export default class About extends Component {
       <div className="about">
         <section className="container">
           <div className="vdo-banner">
-            <ReactPlayer width='100%' height='100%' controls={true} playing={true} url='https://res.cloudinary.com/aisfibre59-com/video/upload/v1600664323/vdo/vdo_nxccmv.mp4' /></div>
+            <ReactPlayer width='100%' height='100%' controls={true} playing={true} url='/vdo/vdo_ais.mp4' /></div>
           <div className="about-desktop d-none d-sm-block">
             <div class="row">
               <div class="col-lg-6 col-sm-6 col-12 about-wrapper-left">
                 <FadeInSection><div class="about-left fade-in">
-                  <Image cloudName="aisfibre59-com" publicId="banner/ookla-aw.png" ></Image>
+                  <img alt="aisfibre ookla" src="/images/home/ookla-aw.png"/>
                 </div>
                 </FadeInSection>
               </div>
@@ -58,7 +57,7 @@ export default class About extends Component {
               <div class="col-lg-6 col-sm-6 col-12 about-wrapper-right">
                 <FadeInSection>
                   <div class="about-right fade-in">
-                    <Image cloudName="aisfibre59-com" publicId="banner/apple_tv.png" ></Image>
+                    <img alt="aisfibre apple-tv" src="/images/home/apple_tv.png"/>
                   </div>
                 </FadeInSection>
               </div>
@@ -67,7 +66,7 @@ export default class About extends Component {
               <div class="col-lg-6 col-sm-6 col-12 about-wrapper-left">
                 <FadeInSection>
                   <div class="about-left fade-in">
-                    <Image cloudName="aisfibre59-com" publicId="banner/speed-toggle.jpg"/>
+                    <img alt="aisfibre speed-toggle" src="/images/home/speed-toggle.jpeg"/>
                   </div>
                 </FadeInSection>
               </div>
@@ -94,7 +93,7 @@ export default class About extends Component {
               <div class="col-lg-6 col-sm-6 col-12 about-wrapper-right">
                 <FadeInSection>
                   <div class="about-right fade-in">
-                    <Image cloudName="aisfibre59-com" publicId="banner/home_wifi.png"></Image>
+                    <img alt="aisfibre home_wifi" src="/images/home/home_wifi.png"/>
                   </div>
                 </FadeInSection>
               </div>
@@ -114,7 +113,7 @@ export default class About extends Component {
               <div class="col-lg-6 col-sm-6 col-12 about-wrapper-right">
                 <FadeInSection>
                   <div class="about-right fade-in">
-                    <Image cloudName="aisfibre59-com" publicId="banner/ookla-aw.png" ></Image>
+                    <img alt="aisfibre ookla" src="/images/home/ookla-aw.png"/>
                   </div>
                 </FadeInSection>
               </div>
@@ -132,7 +131,7 @@ export default class About extends Component {
               <div class="col-lg-6 col-sm-6 col-12 about-wrapper-right">
                 <FadeInSection>
                   <div class="about-right fade-in">
-                    <Image cloudName="aisfibre59-com" publicId="banner/apple_tv.png" ></Image>
+                    <img alt="aisfibre apple-tv" src="/images/home/apple_tv.png"/>
                   </div>
                 </FadeInSection>
               </div>
@@ -150,7 +149,7 @@ export default class About extends Component {
               <div class="col-lg-6 col-sm-6 col-12 about-wrapper-right">
                 <FadeInSection>
                   <div class="about-right fade-in">
-                    <Image cloudName="aisfibre59-com" publicId="banner/speed-toggle.jpg"/>
+                    <img alt="aisfibre speed-toggle" src="/images/home/speed-toggle.jpeg"/>
                   </div>
                 </FadeInSection>
               </div>
@@ -168,14 +167,16 @@ export default class About extends Component {
               <div class="col-lg-6 col-sm-6 col-12 about-wrapper-right">
                 <FadeInSection>
                   <div class="about-right fade-in">
-                    <Image cloudName="aisfibre59-com" publicId="banner/home_wifi.png"></Image>
+                    <img alt="aisfibre home_wifi" src="/images/home/home_wifi.png"/>
                   </div>
                 </FadeInSection>
               </div>
             </div>
           </div>
           <div className="q-and-a">
-            <div className="img-qanda"><Image cloudName="aisfibre59-com" publicId="banner/bannerQandA.jpg"></Image></div>
+            <div className="img-qanda">
+              <img alt="aisfibre" src="/images/home/bannerQandA.jpeg"/>
+            </div>
             <h2>Q. บริการ AIS Fibre คืออะไร?</h2>
             <h2>A.</h2>
             <ul>
@@ -313,7 +314,7 @@ export default class About extends Component {
             ค่าบริการคิดเฉลี่ยตามวันที่ใช้งาน ตั้งแต่วันติดตั้ง – วันตัดรอบบิล (แสดงเฉพาะในบิลใบแรกเท่านั้น) ค่าบริการเรียกเก็บล่วงหน้า 1 เดือน เต็มจำนวน (แสดงตามปกติในทุก ๆ รอบบิล)
             </p>
             <p className="example">ตัวอย่าง การแสดงหน้าใบแจ้งฯ ใบแรก กรณีเลือกแพ็กเกจ 750 บาท ติดตั้งวันที่ 26/01/59 จะได้วันตัดรอบบิลใบแจ้งฯ ทุกวันที่ 27</p>
-            <Image cloudName="aisfibre59-com" publicId="banner/bill"></Image>
+            <img alt="aisfibre billing" src="/images/home/bill.png"/>
             <div className="payment">
               <h2>สามารถชำระค่าบริการผ่านช่องทางไหนได้บ้าง ?</h2>
               <h2>A.</h2>
@@ -340,7 +341,7 @@ export default class About extends Component {
           </div>
           <div class="about-center">
             <FadeInSection>
-              <Image cloudName="aisfibre59-com" publicId="banner/play_channel.png"></Image>
+              <img alt="ais-playtv" src="/images/home/play_channel.png"/>
             </FadeInSection>
           </div>
         </section>

@@ -4,7 +4,6 @@ import Routing from './routes'
 import Footer from './components/Footer'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Sidebar from './components/Sidebar'
-import { Image } from 'cloudinary-react'
 
 class App extends Component {
   render() {
@@ -28,21 +27,18 @@ class App extends Component {
                   <div className="nav-tel">
                     <div className="tel-1">
                       <a href="tel:0924456910" target="blank">
-                        <Image cloudName="aisfibre59-com" publicId="icon/contact-call1.png" >
-                        </Image>
+                        <img alt="aisfibre contact" src="/images/icon/contact-call1.png"/>
                       </a>
                     </div>
                     <div>
                       <a href="tel:0924457406" target="blank">
-                        <Image cloudName="aisfibre59-com" publicId="icon/contact-call2.png" >
-                        </Image>
+                        <img alt="aisfibre contact" src="/images/icon/contact-call2.png"/>
                       </a>
                     </div>
                   </div>
                   <div className="nav-line">
                     <a href="https://lin.ee/3qY2SjL" target="blank">
-                      <Image cloudName="aisfibre59-com" publicId="icon/contact-line.png" >
-                      </Image>
+                      <img alt="aisfibre contact" src="/images/icon/contact-line.png"/>
                     </a>
                   </div>
                 </div>
@@ -55,21 +51,18 @@ class App extends Component {
           <div className="nav-tel-mobile">
             <div className="tel-1">
               <a href="tel:0924456910" target="blank">
-                <Image cloudName="aisfibre59-com" publicId="icon/contact-call1.png" >
-                </Image>
+                <img alt="aisfibre contact" src="/images/icon/contact-call1.png"/>
               </a>
             </div>
             <div>
               <a href="tel:0924457406" target="blank">
-                <Image cloudName="aisfibre59-com" publicId="icon/contact-call2.png" >
-                </Image>
+                <img alt="aisfibre contact" src="/images/icon/contact-call2.png"/>
               </a>
             </div>
           </div>
           <div className="nav-line">
             <a href="https://lin.ee/3qY2SjL" target="blank">
-              <Image cloudName="aisfibre59-com" publicId="icon/contact-line.png" >
-              </Image>
+              <img alt="aisfibre contact" src="/images/icon/contact-line.png"/>
             </a>
           </div>
         </div>

@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
 import Slider from 'react-slick'
-import { NavLink } from 'react-router-dom'
-import {Image} from 'cloudinary-react'
 
 export default class EventBanner extends Component {
   render() {
@@ -68,29 +66,19 @@ export default class EventBanner extends Component {
       <div className="package eventBanner">
         <Slider {...settings} className="slider-package">
           <div className="nav-img">
-            <NavLink to="/power4" activeClassName="is-active" className="navbar-item">
-              <Image cloudName="aisfibre59-com" publicId="banner/covid/covid1.jpg" ></Image>
-            </NavLink>
+            <img src="/images/covid/covid1.jpeg"/>
           </div>
           <div className="nav-img">
-            <NavLink to="/broadband" activeClassName="is-active" className="navbar-item">
-              <Image cloudName="aisfibre59-com" publicId="banner/covid/covid2.jpg" ></Image>
-            </NavLink>
+            <img src="/images/covid/covid2.jpeg"/>
           </div>
           <div className="nav-img">
-            <NavLink to="/e-sport" activeClassName="is-active" className="navbar-item">
-              <Image cloudName="aisfibre59-com" publicId="banner/covid/covid3.jpg" ></Image>
-            </NavLink>
+            <img src="/images/covid/covid3.jpeg"/>
           </div>
           <div className="nav-img">
-            <NavLink to="/serenade" activeClassName="is-active" className="navbar-item">
-              <Image cloudName="aisfibre59-com" publicId="banner/covid/covid4.jpg" ></Image>
-            </NavLink>
+            <img src="/images/covid/covid4.jpeg"/>
           </div>
           <div className="nav-img">
-            <NavLink to="/serenade" activeClassName="is-active" className="navbar-item">
-              <Image cloudName="aisfibre59-com" publicId="banner/covid/covid5.jpg" ></Image>
-            </NavLink>
+            <img src="/images/covid/covid5.jpeg"/>
           </div>
         </Slider>
       </div>
