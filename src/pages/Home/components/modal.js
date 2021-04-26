@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { Modal } from 'react-bootstrap'
-import {Image} from 'cloudinary-react'
 
 function ModalBanner() {
   const [show, setShow] = useState(true)

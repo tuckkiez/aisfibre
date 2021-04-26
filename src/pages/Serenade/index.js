@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import Slider from 'react-slick'
-import {Image} from 'cloudinary-react'
 
 export default class Serenade extends Component {
   componentDidMount() {
@@ -11,13 +10,14 @@ export default class Serenade extends Component {
       slidesToShow: 3,
       speed: 500,
       arrows: false,
+      infinite: false,
       responsive: [
         {
           breakpoint: 1024,
           settings: {
             slidesToShow: 2,
             slidesToScroll: 1,
-            infinite: true
+            infinite: false
           }
         },
         {
@@ -25,7 +25,7 @@ export default class Serenade extends Component {
           settings: {
             className: 'center',
             centerMode: true,
-            infinite: true,
+            infinite: false,
             centerPadding: '60px',
             slidesToShow: 1,
             speed: 500
@@ -36,7 +36,7 @@ export default class Serenade extends Component {
           settings: {
             className: 'center',
             centerMode: true,
-            infinite: true,
+            infinite: false,
             centerPadding: '60px',
             slidesToShow: 1,
             speed: 1500
@@ -48,8 +48,7 @@ export default class Serenade extends Component {
       <div className="package-detail">
         <section className="banner" id="banner">
           <picture>
-            <source media="(min-width: 640px)" srcset="https://res.cloudinary.com/aisfibre59-com/image/upload/banner/package/serenade_1600x500.jpg"/>
-            <Image cloudName="aisfibre59-com" publicId="banner/package/serenade_1040x1137.jpg" ></Image>
+            <img alt="serenade" src="/images/package/serenade_1600x500.jpeg"/>
           </picture>
         </section>
         <div className="container power4-package">
@@ -65,22 +64,16 @@ export default class Serenade extends Component {
           </div>
           <Slider {...settings}>
             <div>
-              <Image cloudName="aisfibre59-com" publicId="banner/package/serenade/serenade1.jpg" ></Image>
+              <img alt="power4special" src="/images/serenade/serenade1.jpg"/>
               <div className="wrapper-package">
                 <a href="https://lin.ee/3qY2SjL" target="blank"><div className="package-button"><span>สมัคร</span></div></a>
               </div>
             </div>
-            <div >
-              <Image cloudName="aisfibre59-com" publicId="banner/package/serenade/serenade2.jpg" ></Image>
-              <div className="wrapper-package">
-                <a href="https://lin.ee/3qY2SjL" target="blank"><div className="package-button"><span>สมัคร</span></div></a>
-              </div>
-            </div>
+            
             <div className="d-none"/>
           </Slider>
           <div className="wrapper-speed serenade-speed">
-            <Image cloudName="aisfibre59-com" publicId="banner/package/serenade/serenade_add100.jpg"></Image>
-            <Image cloudName="aisfibre59-com" publicId="banner/package/serenade/speed-serenade.jpg"></Image>
+            <img alt="power4special" src="/images/serenade/speed-serenade.jpg"/>
           </div>
         </div>
       </div>

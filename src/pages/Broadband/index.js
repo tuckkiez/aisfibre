@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import Slider from 'react-slick'
-import {Image} from 'cloudinary-react'
 
 export default class Broadband extends Component {
   componentDidMount() {
@@ -48,8 +47,7 @@ export default class Broadband extends Component {
       <div className="package-detail">
         <section className="banner">
           <picture>
-            <source media="(min-width: 640px)" srcset="https://res.cloudinary.com/aisfibre59-com/image/upload/banner/package/200m_1600x500.jpg"/>
-            <Image cloudName="aisfibre59-com" publicId="banner/package/200m_1040x1137.jpg" ></Image>
+            <img alt="200mb" src="/images/package/200m_1600x500.jpeg"/>
           </picture>
         </section>
         <div className="container power4-package">
@@ -65,13 +63,13 @@ export default class Broadband extends Component {
           </div>
           <Slider {...settings}>
             <div>
-              <Image cloudName="aisfibre59-com" publicId="banner/package/broadband/package1.jpg" ></Image>
+              <img alt="200mb" src="/images/broadband/package1.jpg"/>
               <div className="wrapper-package">
                 <a href="https://lin.ee/3qY2SjL" target="blank"><div className="package-button"><span>สมัคร</span></div></a>
               </div>
             </div>
             <div >
-              <Image cloudName="aisfibre59-com" publicId="banner/package/broadband/package2.jpg" ></Image>
+              <img alt="200mb" src="/images/broadband/package2.jpg"/>
               <div className="wrapper-package">
                 <a href="https://lin.ee/3qY2SjL" target="blank"><div className="package-button"><span>สมัคร</span></div></a>
               </div>
@@ -79,10 +77,10 @@ export default class Broadband extends Component {
             <div className="d-none"/>
           </Slider>
           <div className="wrapper-speed">
-            <Image cloudName="aisfibre59-com" publicId="banner/package/broadband/banner2.jpg" ></Image>
+            <img alt="200mb" src="/images/broadband/speed.jpg"/>
           </div>
           <div className="wrapper-speed">
-            <Image cloudName="aisfibre59-com" publicId="banner/package/broadband/speed.jpg" ></Image>
+            <img alt="200mb" src="/images/broadband/banner2.jpg"/>
           </div>
         </div>
       </div>

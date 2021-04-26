@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import Slider from 'react-slick'
 import { NavLink } from 'react-router-dom'
-import {Image} from 'cloudinary-react'
 
 export default class PackageBanner extends Component {
   render() {
