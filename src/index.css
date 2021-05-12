@@ -869,6 +869,19 @@ a:hover {
 	margin-top: 20px;
 }
 
+.contact-support {
+	font-size:  30px;
+	font-weight: bold;
+	color: #ffff;
+}
+
+
+.contact-support a{
+	color: #ffff;
+}
+
+
+
 @media only screen and (max-width: 575px) {
 	.package_h1, .package_h1__txt2{
 		font-size: 22px;
@@ -972,6 +985,11 @@ a:hover {
 	.contact-mobile{
 		margin: 7px 10px 0px
 	}
+	.contact-support {
+		font-size:  16px;
+		font-weight: bold;
+		color: #ffff;
+	}
 }
 
 @media only screen and (max-width: 767px) {
@@ -1040,6 +1058,10 @@ a:hover {
 	padding: 10px 0;
 }
 
+.contact-support {
+	font-size:  18px;
+}
+
 
 }
 
@@ -1097,6 +1119,9 @@ a:hover {
 	}
 	.vdo-banner {
 		width: 100%;
+	}
+	.contact-support {
+		font-size:  20px;
 	}
 }
 
