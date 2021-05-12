@@ -40,6 +40,8 @@ export default class Contact extends Component {
               </a>
             </div>
           </div>
+          <div class="contact-support">
+          แจ้งปัญหาอินเทอร์เน็ต/ตั้งค่า ติดต่อที่เบอร์ <a href="tel:1175" target="blank">1175</a></div>
         </div>
       </div>
     )
