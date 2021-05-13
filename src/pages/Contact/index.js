@@ -41,7 +41,7 @@ export default class Contact extends Component {
             </div>
           </div>
           <div class="contact-support">
-          แจ้งปัญหาอินเทอร์เน็ต/ตั้งค่า ติดต่อที่เบอร์ <a href="tel:1175" target="blank">1175</a></div>
+          แจ้งปัญหาในการใช้งานอินเทอร์เน็ต/การตั้งค่า ติดต่อ <a href="tel:1175" target="blank">1175</a></div>
         </div>
       </div>
     )
