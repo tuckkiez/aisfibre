@@ -24,8 +24,21 @@ export default class About extends Component {
     return (
       <div className="about">
         <section className="container">
+          <div className="row awn">
+            <div class="col-lg-12 col-sm-12 col-12">
+              <FadeInSection>
+                <div class="mb-20 fade-in">
+                  <img alt="aisfibre speed-toggle" src="/images/home/awn.jpg"/>
+                </div>
+              </FadeInSection>
+            </div>
+          </div>
+          <h4>ตัวแทนจำหน่ายติดตั้งอินเตอร์เน็ตบ้าน อย่างเป็นทางการจาก AIS Fibre ที่ผ่านมาตรฐานการบริการทั้งด้านเทคนิค และบริการที่ใส่ใจในงานบริการติดตั้งอินเตอร์เน็ตบ้านในทุกรายละเอียด เพื่อบริการให้กับผู้สนใจติดตั้งอินเตอร์เน็ตบ้านที่มีคุณภาพสูงจาก AIS Fibre สามารถเข้าหน้างานได้เร็วที่สุด
+          บริษัท เซนเธียร์ (ประเทศไทย) จำกัด
+          ตัวแทนติดตั้งอินเตอร์เน็ต AIS Fibre อย่างเป็นทางการ จาก AIS</h4>
           <div className="vdo-banner">
-            <ReactPlayer width='100%' height='100%' controls={true} playing={true} url='/vdo/vdo_ais.mp4' /></div>
+            <ReactPlayer width='100%' height='100%' controls={true} playing={true} url='/vdo/vdo_ais.mp4' />
+          </div>
           <div className="about-desktop d-none d-sm-block">
             <div class="row">
               <div class="col-lg-6 col-sm-6 col-12 about-wrapper-left">
@@ -94,15 +107,6 @@ export default class About extends Component {
                 <FadeInSection>
                   <div class="about-right fade-in">
                     <img alt="aisfibre home_wifi" src="/images/home/home_wifi.png"/>
-                  </div>
-                </FadeInSection>
-              </div>
-            </div>
-            <div className="row awn">
-              <div class="col-lg-12 col-sm-12 col-12">
-                <FadeInSection>
-                  <div class="about-right fade-in">
-                    <img alt="aisfibre speed-toggle" src="/images/home/awn.jpg"/>
                   </div>
                 </FadeInSection>
               </div>
@@ -177,16 +181,6 @@ export default class About extends Component {
                 <FadeInSection>
                   <div class="about-right fade-in">
                     <img alt="aisfibre home_wifi" src="/images/home/home_wifi.png"/>
-                  </div>
-                </FadeInSection>
-              </div>
-            </div>
-            <br/>
-            <div class="row">
-              <div class="col-lg-6 col-sm-6 col-12 about-wrapper-right">
-                <FadeInSection>
-                  <div class="about-right fade-in">
-                    <img alt="aisfibre speed-toggle" src="/images/home/awn.jpg"/>
                   </div>
                 </FadeInSection>
               </div>

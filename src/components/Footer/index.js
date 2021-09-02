@@ -136,6 +136,16 @@ export default class Footer extends Component {
                         </div>
                       </div>
                     </div>
+                    <div className="address">
+                      <img alt="call" src="/images/icon/icons8-home-page-30.png"/>
+                      ที่อยู่ 97 ซอยเพชรเกษม 63 แขวงหลังสอง เขตบางแค กรุงเทพฯ 10160
+                    </div>
+
+                    <div className="address">
+                      <img alt="call" src="/images/icon/icons8-send-email-32.png"/>
+                      aisfibrectt@gmail.com
+                    </div>
+                    
                     <div class="col-lg-12">
                       <div class="copyright-text">
                         <p>Copyright © 2020 AISFibre59. All Rights Reserved.</p>
