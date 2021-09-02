@@ -98,6 +98,15 @@ export default class About extends Component {
                 </FadeInSection>
               </div>
             </div>
+            <div className="row awn">
+              <div class="col-lg-12 col-sm-12 col-12">
+                <FadeInSection>
+                  <div class="about-right fade-in">
+                    <img alt="aisfibre speed-toggle" src="/images/home/awn.jpg"/>
+                  </div>
+                </FadeInSection>
+              </div>
+            </div>
           </div>
 
           <div className="about-mobile d-block d-sm-none">
@@ -168,6 +177,16 @@ export default class About extends Component {
                 <FadeInSection>
                   <div class="about-right fade-in">
                     <img alt="aisfibre home_wifi" src="/images/home/home_wifi.png"/>
+                  </div>
+                </FadeInSection>
+              </div>
+            </div>
+            <br/>
+            <div class="row">
+              <div class="col-lg-6 col-sm-6 col-12 about-wrapper-right">
+                <FadeInSection>
+                  <div class="about-right fade-in">
+                    <img alt="aisfibre speed-toggle" src="/images/home/awn.jpg"/>
                   </div>
                 </FadeInSection>
               </div>

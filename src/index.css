@@ -388,6 +388,10 @@ a.navbar-item:hover {
 	margin: 0 auto;
 }
 
+.awn {
+	text-align: center;
+}
+
 .fade-in-section {
   opacity: 0;
   transform: translateY(20vh);
