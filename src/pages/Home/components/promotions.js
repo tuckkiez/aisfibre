@@ -21,7 +21,7 @@ export default class Promotions extends Component {
             </div>
             <div class="col-lg-6 col-sm-12 col-12">
               <a href="https://lin.ee/3qY2SjL" target="blank">
-                <img alt="aisfibre promotion" src="/images/popup/popup-promotion-1.jpg"/>
+                <img alt="aisfibre promotion" src="/images/promotionBanner/promotion-banner2.jpg"/>
               </a>
             </div>
             <div class="col-lg-6 col-sm-12 col-12">
