@@ -37,7 +37,7 @@ export default class About extends Component {
           บริษัท เซนเธียร์ (ประเทศไทย) จำกัด
           ตัวแทนติดตั้งอินเตอร์เน็ต AIS Fibre อย่างเป็นทางการ จาก AIS</h4>
           <div className="vdo-banner">
-            <ReactPlayer width='100%' height='100%' controls={true} playing={true} url='/vdo/vdo_ais.mp4' />
+            <ReactPlayer width='100%' height='100%' controls={true} playing={true} url='/vdo/vdo_ais24.mp4' />
           </div>
           <div className="about-desktop d-none d-sm-block">
             <div class="row">
