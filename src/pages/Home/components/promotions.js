@@ -16,22 +16,22 @@ export default class Promotions extends Component {
           <div class="row">
             <div class="col-lg-6 col-sm-12 col-12">
               <a href="https://lin.ee/3qY2SjL" target="blank">
-                <img alt="aisfibre promotion" src="/images/promotionBanner/promotion-banner1.jpg"/>
+                <img alt="aisfibre promotion" src="/images/promotionBanner/promotion-banner-dec1.jpg"/>
               </a>
             </div>
             <div class="col-lg-6 col-sm-12 col-12">
               <a href="https://lin.ee/3qY2SjL" target="blank">
-                <img alt="aisfibre promotion" src="/images/promotionBanner/promotion-banner2.jpg"/>
+                <img alt="aisfibre promotion" src="/images/promotionBanner/promotion-banner-dec2.jpg"/>
               </a>
             </div>
             <div class="col-lg-6 col-sm-12 col-12">
               <a href="https://lin.ee/3qY2SjL" target="blank">
-                <img alt="aisfibre promotion" src="/images/promotionBanner/promotion-banner3.jpg"/>
+                <img alt="aisfibre promotion" src="/images/promotionBanner/promotion-banner-dec3.jpg"/>
               </a>
             </div>
             <div class="col-lg-6 col-sm-12 col-12">
               <a href="https://lin.ee/3qY2SjL" target="blank">
-                <img alt="aisfibre promotion" src="/images/promotionBanner/promotion-banner4.jpeg"/>
+                <img alt="aisfibre promotion" src="/images/promotionBanner/promotion-banner-dec4.jpg"/>
               </a>
             </div>
           </div>
