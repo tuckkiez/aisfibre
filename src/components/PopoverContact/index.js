@@ -19,8 +19,7 @@ function PopoverContact() {
             <Modal.Title>ติดต่อสอบถามข้อมูลเพิ่มเติม</Modal.Title>
           </Modal.Header>
           <Modal.Body>
-            <div className="tel-more mt-2 mb-1"><a href="tel:0924456910" target="blank">092-4456910</a></div>
-            <div className="tel-more mb-2 "><a href="tel:0924457406" target="blank">092-4457406</a></div>
+            <div className="tel-more mt-2 mb-1"><a href="tel:025499171" target="blank">02-54991710</a></div>
           </Modal.Body>
         </Modal>
       </div>

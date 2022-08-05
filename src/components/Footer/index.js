@@ -86,8 +86,8 @@ export default class Footer extends Component {
                       l48.64-48.64C517.581,425.6,517.581,394.88,499.66,376.96z"/>
                           </svg> </h4>
                         <ul class="ft-link">
-                          <li><a href="tel:0924456910" target="blank">092-4456910</a></li>
-                          <li><a href="tel:0924457406" target="blank">092-4457406</a></li></ul>
+                          <li><a href="tel:025499171" target="blank">02-5499171</a></li>
+                        </ul>
                         <div class="social-share-inner">
                           <ul class="social-share social-style--2 d-flex justify-content-start liststyle mt--15">
                             <li>

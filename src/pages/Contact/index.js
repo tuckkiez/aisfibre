@@ -10,12 +10,12 @@ export default class Contact extends Component {
         <div className="container contact-wrapper" id="top">
           <div class="row">
             <div class="col-lg-6 col-sm-6 col-6">
-              <a href="tel:0924456910" target="blank">
+              <a href="tel:025499171" target="blank">
                 <img alt="call" src="/images/icon/contact-call1.png"/>
               </a>
             </div>
             <div class="col-lg-6 col-sm-6 col-6">
-              <a href="tel:0924457406" target="blank">
+              <a href="tel:1175" target="blank">
                 <img alt="call" src="/images/icon/contact-call2.png"/>
               </a>
             </div>
