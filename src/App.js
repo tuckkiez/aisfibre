@@ -22,7 +22,6 @@ class App extends Component {
                 <a href="/#about" activeClassName="is-active" className="navbar-item">เอไอเอสไฟเบอร์</a>
                 <NavLink to="/location/#top" activeClassName="is-active" className="navbar-item">ตรวจสอบพื้นที่ให้บริการ</NavLink>
                 <NavLink to="/contact" activeClassName="is-active" className="navbar-item">ติดต่อเรา</NavLink>
-
                 <div>
                   <div className="nav-tel">
                     <div className="tel-1">
@@ -30,16 +29,19 @@ class App extends Component {
                         <img alt="aisfibre contact" src="/images/icon/contact-call1.png"/>
                       </a>
                     </div>
-                    <div>
+                    <div className="tel-1">
                       <a href="tel:1175" target="blank">
                         <img alt="aisfibre contact" src="/images/icon/contact-call2.png"/>
                       </a>
                     </div>
+                    <div>
+                      <a href="https://lin.ee/3qY2SjL" target="blank">
+                        <img alt="aisfibre contact" src="/images/icon/contact-line.png"/>
+                      </a>
+                    </div>
                   </div>
                   <div className="nav-line">
-                    <a href="https://lin.ee/3qY2SjL" target="blank">
-                      <img alt="aisfibre contact" src="/images/icon/contact-line.png"/>
-                    </a>
+                    
                   </div>
                 </div>
               </div>
@@ -54,7 +56,7 @@ class App extends Component {
                 <img alt="aisfibre contact" src="/images/icon/contact-call1.png"/>
               </a>
             </div>
-            <div>
+            <div >
               <a href="tel:1175" target="blank">
                 <img alt="aisfibre contact" src="/images/icon/contact-call2.png"/>
               </a>

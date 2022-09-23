@@ -390,6 +390,7 @@ a.navbar-item:hover {
 
 .about-center {
 	margin: 0 auto;
+	text-align: center;
 }
 
 .awn {
@@ -833,10 +834,13 @@ a:hover {
 	margin-top: -4px;
 	margin-bottom: 5px; 
 }
-.nav-tel img, .nav-line img , .nav-tel-mobile img{
-	width: 100px;
+.nav-tel img, .nav-line img{
+	width: 140px;
 }
 
+.contact-mobile  img{
+	width: 100px;
+}
 .tel-1{
 	margin-right: 7px;
 }
