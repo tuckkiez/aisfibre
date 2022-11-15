@@ -25,7 +25,7 @@ class App extends Component {
                 <div>
                   <div className="nav-tel">
                     <div className="tel-1">
-                      <a href="tel:025499171" target="blank">
+                      <a href="tel:025499172" target="blank">
                         <img alt="aisfibre contact" src="/images/icon/contact-call1.png"/>
                       </a>
                     </div>
@@ -52,7 +52,7 @@ class App extends Component {
         <div className="contact-mobile">
           <div className="nav-tel-mobile">
             <div className="tel-1">
-              <a href="tel:025499171" target="blank">
+              <a href="tel:025499172" target="blank">
                 <img alt="aisfibre contact" src="/images/icon/contact-call1.png"/>
               </a>
             </div>
