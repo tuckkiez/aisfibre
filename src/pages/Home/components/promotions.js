@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 
 export default class Promotions extends Component {
   render() {
-    const v = new Date().getTime()
     return (
       <div className="promotions-banner">
         <div className="container promotions-wrapper" id="top">
@@ -19,12 +18,11 @@ export default class Promotions extends Component {
                 <img alt="aisfibre promotion" src="/images/promotionBanner/promotion-banner-1.jpg"/>
               </a>
             </div>
-           {/*  <div class="col-lg-6 col-sm-12 col-12">
+            {/*  <div class="col-lg-6 col-sm-12 col-12">
               <a href="https://lin.ee/3qY2SjL" target="blank">
                 <img alt="aisfibre promotion" src="/images/promotionBanner/promotion-banner-2.jpg"/>
               </a>
             </div>
-            
             <div class="col-lg-6 col-sm-12 col-12">
               <a href="https://lin.ee/3qY2SjL" target="blank">
                 <img alt="aisfibre promotion" src="/images/promotionBanner/promotion-banner-4.jpg"/>
