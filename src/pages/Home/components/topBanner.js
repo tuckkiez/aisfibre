@@ -19,6 +19,16 @@ export default class TopBanner extends Component {
       // </div>
       <div className="top-banner">
         <Slider {...settings}>
+          <NavLink to="/">
+            <picture>
+              <img alt="aisfibre" src="/images/home/slide2.jpeg"/>
+            </picture>
+          </NavLink>
+          <NavLink to="/">
+            <picture>
+              <img alt="aisfibre" src="/images/home/slide1.jpeg"/>
+            </picture>
+          </NavLink>
           <NavLink to="/power4">
             <picture>
               <img alt="aisfibre" src="/images/home/1630476583560.jpeg"/>
