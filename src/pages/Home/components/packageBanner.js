@@ -73,23 +73,43 @@ export default class PackageBanner extends Component {
         </div>
         <Slider {...settings} className="slider-package">
           <div className="nav-img">
-            <NavLink to="/power4" activeClassName="is-active" className="navbar-item">
-              <img alt="aisfibre-package1" src="/images/package/package1.jpeg"/>
+            <NavLink to="#" activeClassName="is-active" className="navbar-item">
+              <img alt="aisfibre-package1" src="/images/package/package1.jpg"/>
             </NavLink>
           </div>
           <div className="nav-img">
-            <NavLink to="/broadband" activeClassName="is-active" className="navbar-item">
-              <img alt="aisfibre-package3" src="/images/package/package3.jpeg"/>
+            <NavLink to="#" activeClassName="is-active" className="navbar-item">
+              <img alt="aisfibre-package3" src="/images/package/package3.jpg"/>
             </NavLink>
           </div>
           <div className="nav-img">
-            <NavLink to="/e-sport" activeClassName="is-active" className="navbar-item">
-              <img alt="aisfibre-package4" src="/images/package/package4.jpeg"/>
+            <NavLink to="#" activeClassName="is-active" className="navbar-item">
+              <img alt="aisfibre-package4" src="/images/package/package4.jpg"/>
             </NavLink>
           </div>
           <div className="nav-img">
-            <NavLink to="/serenade" activeClassName="is-active" className="navbar-item">
-              <img alt="aisfibre-package5" src="/images/package/package5.jpeg"/>
+            <NavLink to="#" activeClassName="is-active" className="navbar-item">
+              <img alt="aisfibre-package5" src="/images/package/package5.jpg"/>
+            </NavLink>
+          </div>
+          <div className="nav-img">
+            <NavLink to="#" activeClassName="is-active" className="navbar-item">
+              <img alt="aisfibre-package5" src="/images/package/package6.jpg"/>
+            </NavLink>
+          </div>
+          <div className="nav-img">
+            <NavLink to="#" activeClassName="is-active" className="navbar-item">
+              <img alt="aisfibre-package5" src="/images/package/package7.jpg"/>
+            </NavLink>
+          </div>
+          <div className="nav-img">
+            <NavLink to="#" activeClassName="is-active" className="navbar-item">
+              <img alt="aisfibre-package5" src="/images/package/package8.jpg"/>
+            </NavLink>
+          </div>
+          <div className="nav-img">
+            <NavLink to="#" activeClassName="is-active" className="navbar-item">
+              <img alt="aisfibre-package5" src="/images/package/package9.jpg"/>
             </NavLink>
           </div>
         </Slider>
