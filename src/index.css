@@ -91,6 +91,9 @@ a.navbar-item:hover {
 	left:0;
 	width: 100%;
 }
+.slick-slide  {
+	background: #000;
+}
 .slick-slide img {
 	margin: auto;
 }
@@ -127,7 +130,11 @@ a.navbar-item:hover {
 }
 
 .slick-slide{
-  padding:10px;
+  padding: 10px;
+}
+
+.slider-promotionBanner .slick-slide{
+	padding: 0px;
 }
 
 .top-banner .slick-dots {
@@ -820,7 +827,10 @@ a:hover {
 	margin: 0!important;
 	border-radius: 0!important;
 	overflow: hidden;
+	width: 550px!important;
+    height: 550px!important;
 }
+
 
 .modal-header button span{
 	font-size: 30px;
@@ -907,6 +917,19 @@ a:hover {
 
 
 @media only screen and (max-width: 575px) {
+
+	.modal-content{
+		margin: 0!important;
+		border-radius: 0!important;
+		overflow: hidden;
+		width: 100%!important;
+		height: 100%!important;
+	}
+
+	.modal-open .modal{
+		padding: 0!important;
+	}
+
 	.package_h1, .package_h1__txt2{
 		font-size: 22px;
 		line-height: 22px;

@@ -28,6 +28,24 @@ export default class About extends Component {
             <div class="col-lg-12 col-sm-12 col-12">
               <FadeInSection>
                 <div class="mb-20 fade-in">
+                  <img alt="aisfibre speed-toggle" src="/images/home/awn1.jpg"/>
+                </div>
+              </FadeInSection>
+            </div>
+          </div>
+          <div className="row awn">
+            <div class="col-lg-12 col-sm-12 col-12">
+              <FadeInSection>
+                <div class="mb-20 fade-in">
+                  <img alt="aisfibre speed-toggle" src="/images/home/awn2.jpg"/>
+                </div>
+              </FadeInSection>
+            </div>
+          </div>
+          <div className="row awn">
+            <div class="col-lg-12 col-sm-12 col-12">
+              <FadeInSection>
+                <div class="mb-20 fade-in">
                   <img alt="aisfibre speed-toggle" src="/images/home/awn.jpg"/>
                 </div>
               </FadeInSection>
