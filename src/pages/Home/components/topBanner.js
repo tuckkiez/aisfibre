@@ -31,7 +31,7 @@ export default class TopBanner extends Component {
           </NavLink>
           <NavLink to="/power4">
             <picture>
-              <img alt="aisfibre" src="/images/home/1630476583560.jpeg"/>
+              <img alt="aisfibre" src="/images/home/AIS_Fibre_Branding_Banner_Jul_Hero_Official_1600x500_TH.jpeg"/>
             </picture>
           </NavLink>
           <NavLink to="/broadband">
