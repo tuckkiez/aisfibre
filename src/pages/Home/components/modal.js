@@ -43,7 +43,12 @@ function ModalBanner() {
       >
         <Modal.Header closeButton/>
         <Modal.Body >
-          <Slider {...settings} className="slider-promotionBanner">
+          <div className="nav-img">
+            <NavLink to="#" activeClassName="is-active" className="navbar-item">
+              <img alt="aisfibre-promotionBanner" src="/images/promotionBanner/popup-1.jpg"/>
+            </NavLink>
+          </div>
+          {/* <Slider {...settings} className="slider-promotionBanner">
             <div className="nav-img">
               <NavLink to="#" activeClassName="is-active" className="navbar-item">
                 <img alt="aisfibre-promotionBanner" src="/images/promotionBanner/popup-1.jpg"/>
@@ -74,7 +79,7 @@ function ModalBanner() {
                 <img alt="aisfibre-promotionBanner5" src="/images/promotionBanner/popup-6.jpg"/>
               </NavLink>
             </div>
-          </Slider>
+  </Slider> */}
         </Modal.Body>
       </Modal>
     </div>
